@@ -1,0 +1,10 @@
+features:
+- need constructors for nullable types and interop with other languages
+
+bugs:
+- class A { class B { A.B thing } }
+  needs to be printed as "A::B thing;" but is currently just "B thing;"
+- list literals need work for C++
+- classes and functions need to be forward declared for C++
+- class A { int A }
+  needs to be mangled to avoid problems with constructors in C++
