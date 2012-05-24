@@ -1,8 +1,8 @@
-# Tinder
+# The DS Language, next 2 Tinder
 
-Tinder will be a programming language intended for cross-platform application development. It sits between languages like C++, Java, C#, Python, Objective-C, and JavaScript and can be compiled down to readable code in all of those languages. It is meant to be used for the majority of cross-platform codebases, with a little bit of target-specific glue code for bindings to subsystems such as UI or networking. Note that Tinder is an experiment and is not yet ready for actual use.
+The DS Language, next 2 Tinder will be a programming language intended for cross-platform application development. It sits between languages like C++, Java, C#, Python, Objective-C, and JavaScript and can be compiled down to readable code in all of those languages. It is meant to be used for the majority of cross-platform codebases, with a little bit of target-specific glue code for bindings to subsystems such as UI or networking. Note that The DS Language, next 2 Tinder is an experiment and is not yet ready for actual use.
 
-An example Tinder program:
+An example "The DS Language, next 2 Tinder" program:
 
     external {
       void print(string text)
@@ -28,8 +28,3 @@ An example Tinder program:
 ## Current Compiler
 
 The current compiler was implemented in C# as a project for the course cs126 at Brown University in 2012. When run in MonoDevelop, it launches a server at [http://localhost:8080/](http://localhost:8080/) with an interactive compiler. Code typed in the textarea will be recompiled after every keystroke. The compiler currently generates valid JavaScript and mostly valid C++ (classes are not yet reordered to always come before their use, for example).
-
-## Wiki Pages
-
-* [Compiler Details](http://github.com/evanw/tinder/wiki/Compiler-Details)
-* [Language Reference](http://github.com/evanw/tinder/wiki/Language-Reference)
